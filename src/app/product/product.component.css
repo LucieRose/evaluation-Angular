@@ -1,0 +1,10 @@
+.last {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.details:hover{   
+  cursor:pointer;
+  transform: translateY(-3px);
+  box-shadow: 3px 3px 3px 3px #2928282d;
+  transition:0.2s;
+}

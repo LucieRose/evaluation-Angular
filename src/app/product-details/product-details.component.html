@@ -1,0 +1,22 @@
+
+  <div class="thumbnail">
+  <h1>
+    {{product.title | uppercase}}
+    <span *ngIf="product.stock===1" class="message_stock">DERNIER DISPONIBLE !!!</span>
+  </h1>
+  <h2>{{product.price | currency:'EUR'}}</h2>
+  <img [src]="product.photo"/>
+
+  <h3>{{product.description}}</h3>
+  <p>Stock: {{product.stock}}</p>
+
+</div>
+
+<div class="row text-center">
+  <ng-container *ngFor="let product of products">
+    <app-product *ngIf="isAvailable(product)" [data]="product"
+></app-product>
+  </ng-container>
+</div>
+
+
