@@ -1,0 +1,8 @@
+.message_stock{
+    margin-left: 50px;
+    padding: 10px;
+    background-color: rgba(248, 200, 193, 0.63);
+    border-radius: 10px;
+    font-weight: bold;
+    color: red
+}
