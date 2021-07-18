@@ -6,3 +6,19 @@
     font-weight: bold;
     color: red
 }
+
+h1{
+    padding: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+h3{
+    padding: 20px;
+}
+
+p{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
